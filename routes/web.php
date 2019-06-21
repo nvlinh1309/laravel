@@ -11,4 +11,10 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', 'frontend\HomeController@index')->name('home');
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> master
